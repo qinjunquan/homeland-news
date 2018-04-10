@@ -7,7 +7,7 @@ module Homeland
         if Setting.has_module?(:news)
           Homeland.register_plugin do |plugin|
             plugin.name           = 'news'
-            plugin.display_name   = '新闻'
+            plugin.display_name   = '快讯'
             plugin.description    = Homeland::News::DESCRIPTION
             plugin.version        = Homeland::News::VERSION
             plugin.navbar_link    = true
